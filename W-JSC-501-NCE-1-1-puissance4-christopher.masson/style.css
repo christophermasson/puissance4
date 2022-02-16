@@ -1,0 +1,46 @@
+body {
+  background-color: #ffffaf;
+  text-align: center;
+}
+#game {
+  margin-top: 15%;
+  display: inline-block;
+  text-align: center;
+  background-color: blue;
+}
+.col {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffaf;
+  margin: 5px;
+  display: inline-block;
+}
+.col.empty {
+  cursor: pointer;
+}
+.col.red {
+  background-color: red;
+}
+.col.yellow {
+  background-color: yellow;
+}
+.col.pred {
+  background-color: darkred;
+}
+.col.pyellow {
+  background-color: darkgoldenrod;
+}
+#restart {
+  padding: 1rem 1.5rem;
+  background: #1aa1f5;
+  color: #fff;
+  border-radius: 4rem;
+  border: 00.1rem solid #1aa1f5;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 400px;
+  display: block;
+  margin-top: 30px;
+}
